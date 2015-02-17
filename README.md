@@ -3,7 +3,7 @@ Scientific analysis codes dedicated to calculate cloud properties (cloud optical
 These clouds properties are retrieved using zenith spectral radiance measurements taken with the 4STAR instrument onboard airborne research platforms or SSFR ground-based radiance measurements
 The various codes are used to build a ki-squared based multiparameter retrieval of cloud properties. 
 
-  - The codes used to prepare, run, and read radiative transfer calculations from a computing cluster is located in the 'cluster' subdirectory
+  - The codes used to prepare, run, and read radiative transfer calculations from a computing cluster is located in the 'cluster' subdirectory, the mie_hi.out required file is located at: http://science.arm.gov/~sleblanc/mie_hi.out
   - The codes used for reading libradtran output, and preparing the atmosphere profile input files are located in the libradtran subdirectory
   - Various plotting programs are located in the plotting subdirectory
   - the ki squared multiparameter retrieval codes are located in the retrieval subdirectory
